@@ -15,35 +15,35 @@ function  preload(){
   herbalimg = loadImage("herbal.png")
 }
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  newnursery = createSprite(windowWidth/10 +10 , windowHeight/10+10, 150, 150)
+  createCanvas(displayWidth, displayHeight);
+  newnursery = createSprite(displayWidth/10 +10 , displayWidth/10+10, 150, 150)
   newnursery.addImage("nur",nurseryimg);
-  pathway = createSprite(windowWidth/10 +10, windowHeight/10+250, 50, 50)
+  pathway = createSprite(displayWidth/10 +10, displayWidth/10+250, 50, 50)
   pathway.addImage("path",pathwayimg);
   pathway.scale = 0.9;
-  toolshed = createSprite(windowWidth/10+10, windowHeight/10+480, 50, 50)
+  toolshed = createSprite(displayWidth/10+10, displayWidth/10+480, 50, 50)
   toolshed.addImage("tool",toolshedimg);
   toolshed.scale = 0.6;
-  transformer = createSprite(windowWidth/10+10, windowHeight/10+600, 50, 50)
+  transformer = createSprite(displayWidth/10+10, displayWidth/10+600, 50, 50)
   transformer.addImage("transformer",thermometerimg);
   transformer.scale = 0.4;
-  ashokavanam = createSprite(windowWidth/10+200, windowHeight/10+200, 50, 50)
+  ashokavanam = createSprite(displayWidth/10+200, displayWidth/10+200, 50, 50)
  ashokavanam.addImage("ashoka",ashokaimg);
  ashokavanam.scale = 0.7;
-  herbalgarden = createSprite(windowWidth/10+200, windowHeight/10+400, 50, 50)
+  herbalgarden = createSprite(displayWidth/10+200, displayWidth/10+400, 50, 50)
   herbalgarden.addImage("herb",herbalimg);
   herbalgarden.scale = 0.7;
-  servicegate = createSprite(windowWidth/2, windowHeight/2, 50, 50)
+  servicegate = createSprite(displayWidth/2, displayWidth/2, 50, 50)
  // newnursery.addImage("nur",nurseryimg);
-  maingate = createSprite(windowWidth/2, windowHeight/2, 50, 50)
+  maingate = createSprite(displayWidth/2, displayWidth/2, 50, 50)
   //newnursery.addImage("nur",nurseryimg);
-  saplings = createSprite(windowWidth/10+200, windowHeight/10+600, 50, 50)
+  saplings = createSprite(displayWidth/10+200, displayWidth/10+600, 50, 50)
   saplings.addImage("sapling",saplingimg);
   saplings.scale = 0.7;
-  bamboo = createSprite(windowWidth/10+800, windowHeight/10+10, 50, 50)
+  bamboo = createSprite(displayWidth/10+800, displayWidth/10+10, 50, 50)
   bamboo.addImage("bamboo",bambooimg);
   bamboo.scale = 0.7;
-  stream = createSprite(windowWidth/10+380, windowHeight/10+100, 50, 50)
+  stream = createSprite(displayWidth/10+380, displayWidth/10+100, 50, 50)
   stream.addImage("stream",streamimg);
   stream.scale = 1;
   
